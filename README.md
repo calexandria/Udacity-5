@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/calexandria/Udacity-5/tree/master.svg?style=svg)](https://circleci.com/gh/calexandria/Udacity-5/tree/master)
 
 ## Project Overview
 
@@ -25,7 +25,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
+* Create a virtualenv with Python 3.7 and activate it.
 ```bash
 python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
@@ -44,7 +44,7 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
+* Setup and Configure Docker locally 
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
